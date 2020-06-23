@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zipack</title>
+    <link rel="stylesheet" href="./app/app.css">
+</head>
+
+<body class="">
+
+    <header>
+
+        <a href="#intro">INTRO</a>
+        <span>&nbsp;&nbsp;</span>
+        <a href="#demo">DEMO</a>
+        <span>&nbsp;&nbsp;</span>
+        <a href="#projects">PROJECTS</a>
+        <span>&nbsp;&nbsp;</span>
+        <a>CONTRIBUTE</a>
+        <span>&nbsp;&nbsp;</span>
+        <a href="https://github.com/zipack" target="__blank">SPEC</a>
+    </header>
+    <main>
+        <img src="./app/logo.png" alt="">
+        <h1 id="intro">Introduction</h1>
+        <div>
+            Zipack is an efficient serialization format, it's a replacement to JSON, but smaller, faster and richer with
+            data types including Number, String, Bool, Null, ByteArray, List, Map and reserved types. Of cause zipack is
+            schema-less. In depth, zipack borrows ideas from <i>Huffman Encoding, MessagePack, Protocol
+                Buffer, Git's VLQ</i>, etc. but defines a better compression algorithm than all of them .
+        </div>
+
+        <br>
+
+        <h1 id="demo">Demo</h1>
+        <div>
+            JSON: <span id="json-info"></span>
+            <br>
+            <textarea id="input" name="" id="" cols="50" rows="10"></textarea>
+            <br>
+            zipack: <span id="zipack-info"></span>
+            <br>
+            <textarea id="output" disabled name="" id="" cols="50" rows="10"></textarea>
+        </div>
+
+        <br>
+
+        <h1 id="projects">Implementations</h1>
+        <div id="project-container">
+            <section>
+                <a target="__blank" href="https://github.com/zipack/zipack-javascript">JavaScript</a>
+                <span>Implementation in JavaScript by <a href="https://jimmy.blog.csdn.net/">Jimmy</a></span>
+            </section>
+            <span>&nbsp;&nbsp;</span>
+
+            <section>
+                <a target="__blank" href="https://github.com/zipack/zipack">Contribute</a>
+                <span>Submit your project following the <a href="">Spec</a></span>
+            </section>
+        </div>
+        <br>
+        <br>
+
+    </main>
+    <footer></footer>
+
+
+
+
+
+
+
+
+
+    <script type="module" src="./app/app.js" async></script>
+</body>
+
+</html>

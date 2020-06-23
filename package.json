@@ -1,0 +1,19 @@
+{
+  "name": "zipack-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zipack/website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zipack/website/issues"
+  },
+  "homepage": "https://github.com/zipack/website#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
