@@ -1,6 +1,6 @@
 # zipack.github.io
 
-This repository stores zipack.github.io website using material-components-web as UI framework.
+This repository stores zipack.github.io/website source code using vanilla JS.
 
 ## Test
 

@@ -18,18 +18,17 @@
         <span>&nbsp;&nbsp;</span>
         <a href="#projects">PROJECTS</a>
         <span>&nbsp;&nbsp;</span>
-        <a>CONTRIBUTE</a>
-        <span>&nbsp;&nbsp;</span>
         <a href="https://github.com/zipack" target="__blank">SPEC</a>
     </header>
     <main>
         <img src="./app/logo.png" alt="">
         <h1 id="intro">Introduction</h1>
         <div>
-            Zipack is an efficient serialization format, it's a replacement to JSON, but smaller, faster and richer with
-            data types including Number, String, Bool, Null, ByteArray, List, Map and reserved types. Of cause zipack is
-            schema-less. In depth, zipack borrows ideas from <i>Huffman Encoding, MessagePack, Protocol
-                Buffer, Git's VLQ</i>, etc. but defines a better compression algorithm than all of them .
+            Zipack is an efficient serialization format which beats JSON, it's smaller, faster and richer with
+            data types including Number, String, Bool, Null, ByteArray, List, Map and reserved types. In depth, Zipack
+            has a better encoding than UTF-8 and IEEE Floating Point, which has been proven in
+            <a target="__blank" href="https://github.com/zipack/zipack">Spec</a>.
+
         </div>
 
         <br>
@@ -38,7 +37,7 @@
         <div>
             JSON: <span id="json-info"></span>
             <br>
-            <textarea id="input" name="" id="" cols="50" rows="10"></textarea>
+            <textarea autofocus id="input" name="" id="" cols="50" rows="10"></textarea>
             <br>
             zipack: <span id="zipack-info"></span>
             <br>
