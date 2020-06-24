@@ -1,9 +1,10 @@
 # zipack.github.io
 
-This repository stores zipack.github.io/website source code using vanilla JS.
+This repository stores source code of [zipack.github.io/website](https://zipack.github.io/website) using vanilla JS.
 
 ## Test
 
 ```shell
+npm install
 node server.js
 ```
