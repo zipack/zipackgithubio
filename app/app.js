@@ -12,9 +12,8 @@ input.oninput = function () {
       .join(" ");
     const jsonLength = new TextEncoder().encode(input.value).length;
     jsonInfo.textContent = `${jsonLength} bytes`;
-    zipackInfo.textContent = `${q.length} bytes   (${Math.round(
-      (q.length * 100) / jsonLength
-    )}%)`;
+    const percentage = Math.round((q.length * 100) / jsonLength);
+    zipackInfo.textContent = `${q.length} bytes   (${percentage}%)`;
   } catch (err) {
     output.value = "JSON Parse Error";
     jsonInfo.textContent = ``;
