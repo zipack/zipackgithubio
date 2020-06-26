@@ -22,13 +22,14 @@
         <a href="https://github.com/zipack/spec/blob/master/spec.md" target="__blank">SPEC</a>
     </header>
     <main>
-        <img src="./app/logo.png" alt="">
+        <div id="logo-wrapper">
+            <img src="./app/logo.png" alt="">
+        </div>
         <h1 id="intro">Intro</h1>
         <div>
-            Zipack is an efficient serialization format which beats JSON, it's smaller, faster and richer with
-            data types including Number, String, Bool, Null, ByteArray, List, Map and reserved types. In depth, Zipack
-            has a better encoding than UTF-8 and IEEE Floating Point, which has been proven in
-            <a target="__blank" href="https://github.com/zipack/spec">Spec</a>.
+            Zipack is an efficient binary serialization format which beats JSON. It's small, fast and compact using
+            prefix-based Huffman encoding. In depth, Zipack adopts a better algorithm for String&Number instead of UTF-8
+            and IEEE Floating Point. See details in <a target="__blank" href="https://github.com/zipack/spec">Spec</a>.
 
         </div>
 
@@ -51,13 +52,15 @@
         <div id="project-container">
             <section>
                 <a target="__blank" href="https://github.com/zipack/zipack-javascript">JavaScript</a>
-                <span>Implementation in JavaScript by <a target="__blank" href="https://github.com/jinhengyu">Jimmy</a></span>
+                <span>Implementation in JavaScript by <a target="__blank"
+                        href="https://github.com/jinhengyu">Jimmy</a></span>
             </section>
             <span>&nbsp;&nbsp;</span>
 
             <section>
                 <a target="__blank" href="https://github.com/zipack/spec">Contribute</a>
-                <span>Submit your project following the <a href="https://github.com/zipack/spec/blob/master/spec.md">Spec</a></span>
+                <span>Submit your project following the <a
+                        href="https://github.com/zipack/spec/blob/master/spec.md">Spec</a></span>
             </section>
         </div>
         <br>
