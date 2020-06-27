@@ -49,6 +49,7 @@ main {
 textarea {
   font-size: 18px;
   padding: 10px;
+  font-family: monospace;
 }
 
 #project-container {
