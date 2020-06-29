@@ -68,7 +68,7 @@ section {
   display: inline-block;
 }
 
-section>a:first-child {
+section > a:first-child {
   display: block;
   border-bottom: 1px solid gray;
   padding-bottom: 10px;
@@ -77,7 +77,16 @@ section>a:first-child {
   font-weight: bolder;
 }
 
-section>span:last-child {
+section > span:last-child {
   font-size: 16px;
   letter-spacing: 1px;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  color: gray;
+  padding: 20px 0;
+  font-size: 16px;
 }
